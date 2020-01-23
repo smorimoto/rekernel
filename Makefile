@@ -12,4 +12,4 @@ config::
 
 build:: clean config
 	rm -rf mirage-unikernel-*.opam
-	esy build
+	esy dune build --for-release-of-packages=rekernel
