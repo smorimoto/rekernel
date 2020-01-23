@@ -4,5 +4,30 @@
   "description": "A minimum setup for writing Unikernels in ReasonML",
   "repository": "https://github.com/imbsky/rekernel",
   "author": "BSKY <me@bsky.moe>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "esy": {
+    "build": "dune build --for-release-of-packages=#{self.name}",
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@opam/dune": "2.1.3",
+    "@opam/duration": "0.1.3",
+    "@opam/functoria-runtime": "3.0.3",
+    "@opam/lwt": "5.1.1",
+    "@opam/mirage": "3.7.4",
+    "@opam/mirage-bootvar-unix": "0.1.0",
+    "@opam/mirage-clock-unix": "3.0.1",
+    "@opam/mirage-logs": "1.2.0",
+    "@opam/mirage-runtime": "3.7.1",
+    "@opam/mirage-types": "3.7.1",
+    "@opam/mirage-types-lwt": "3.7.1",
+    "@opam/mirage-unix": "4.0.0",
+    "@opam/opam-depext": "1.1.3",
+    "@opam/reason": "3.5.2",
+    "ocaml": "4.08.1000"
+  },
+  "devDependencies": {
+    "@opam/merlin": "3.3.3",
+    "prettier": "1.19.1"
+  }
 }

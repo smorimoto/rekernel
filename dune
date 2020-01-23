@@ -1,0 +1,7 @@
+(executable
+ (public_name rekernel)
+ (name main)
+ (modules unikernel main key_gen)
+ (libraries duration functoria-runtime lwt mirage mirage-bootvar-unix
+   mirage-clock-unix mirage-logs mirage-runtime mirage-types mirage-types-lwt
+   mirage-unix))

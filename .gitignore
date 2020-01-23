@@ -1,0 +1,14 @@
+_build/
+_esy/
+node_modules/
+
+*.install
+.merlin
+.mirage.config
+config.ml
+dune.build
+dune.config
+key_gen.ml
+main.ml
+mirage-unikernel*.opam
+myocamlbuild.ml
