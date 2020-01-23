@@ -6,7 +6,6 @@
   "author": "BSKY <me@bsky.moe>",
   "license": "Apache-2.0",
   "esy": {
-    "build": "dune build --for-release-of-packages=#{self.name}",
     "buildsInSource": "_build"
   },
   "dependencies": {
