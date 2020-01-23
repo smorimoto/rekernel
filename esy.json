@@ -1,7 +1,7 @@
 {
   "name": "rekernel",
   "version": "0.0.0",
-  "description": "A minimum setup for writing Unikernels in ReasonML",
+  "description": "Minimum setup for writing Unikernels in ReasonML",
   "repository": "https://github.com/imbsky/rekernel",
   "author": "BSKY <me@bsky.moe>",
   "license": "Apache-2.0",

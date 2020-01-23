@@ -1,3 +1,3 @@
 # rekernel
 
-A minimum setup for writing Unikernels in ReasonML
+Minimum setup for writing Unikernels in ReasonML
