@@ -14,6 +14,10 @@ manually rewrite the dune config file. But, Mirage will support Dune, so you
 probably won't need these extra works in the future. And the code was stolen
 from Tim Dysinger's [restack](https://github.com/dysinger/restack) repository.
 
+## Build
+
+See the file [BUILD.md](BUILD.md) for build instructions.
+
 ## Bug reports and user feedback
 
 Please report bugs using the issue tracker at
