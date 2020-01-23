@@ -10,5 +10,5 @@ dune.build
 dune.config
 key_gen.ml
 main.ml
-mirage-unikernel*.opam
+mirage-unikernel-*.opam
 myocamlbuild.ml
