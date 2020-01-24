@@ -25,7 +25,6 @@
     "ocaml": "4.9.0"
   },
   "devDependencies": {
-    "@opam/merlin": "3.3.3",
     "@opam/ocaml-lsp-server": "*",
     "@opam/ocamlformat": "0.12",
     "prettier": "1.19.1"
