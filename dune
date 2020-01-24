@@ -5,3 +5,6 @@
  (libraries duration functoria-runtime lwt mirage mirage-bootvar-unix
    mirage-clock-unix mirage-logs mirage-runtime mirage-types mirage-types-lwt
    mirage-unix))
+
+(dirs
+ (:standard \ _build _esy node_modules))
