@@ -1,15 +1,17 @@
-objects = .mirage.config config.ml dune.build dune.config key_gen.ml main.ml \
+clean::
+	rm -f .mirage.config config.ml dune.build dune.config key_gen.ml main.ml \
 					mirage-unikernel-*.opam myocamlbuild.ml
 
-clean::
-	rm -rf $(objects)
-
 config::
-	rm -rf dune dune-project
-	esy refmt configure.re --parse=re --print=ml > config.ml
+	mv dune dune.copy
+	mv dune-project dune-project.copy
+	mv Makefile Makefile.copy
+	esy refmt configure.re --print=ml > config.ml
 	esy mirage configure
-	git checkout dune dune-project Makefile
+	mv dune.copy dune
+	mv dune-project.copy dune-project
+	mv Makefile.copy Makefile
 
 build:: clean config
-	rm -rf mirage-unikernel-*.opam
+	rm -f mirage-unikernel-*.opam
 	esy dune build --for-release-of-packages=rekernel
