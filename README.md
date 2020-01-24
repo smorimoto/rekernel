@@ -1,8 +1,11 @@
 # rekernel
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub](https://img.shields.io/github/license/imbsky/dvm?color=brightgreen&style=flat-square)](https://github.com/imbsky/dvm/blob/master/LICENSE)
+
 ## Overview
 
-Minimum setup for writing Unikernels in ReasonML
+Minimum setup for writing Unikernels in ReasonML.
 
 ## Note to anyone who happens to find this repository
 
