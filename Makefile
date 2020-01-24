@@ -1,8 +1,15 @@
-clean::
+.PHONY: build
+build: clean configure
+	rm -f mirage-unikernel-*.opam
+	esy dune build
+
+.PHONY: clean
+clean:
 	rm -f .mirage.config config.ml dune.build dune.config key_gen.ml main.ml \
 					mirage-unikernel-*.opam myocamlbuild.ml
 
-config::
+.PHONY: configure
+configure:
 	mv dune dune.copy
 	mv dune-project dune-project.copy
 	mv Makefile Makefile.copy
@@ -11,7 +18,3 @@ config::
 	mv dune.copy dune
 	mv dune-project.copy dune-project
 	mv Makefile.copy Makefile
-
-build:: clean config
-	rm -f mirage-unikernel-*.opam
-	esy dune build --for-release-of-packages=rekernel
