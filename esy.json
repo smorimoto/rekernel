@@ -30,6 +30,6 @@
     "prettier": "1.19.1"
   },
   "resolutions": {
-    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#007a1af"
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#771a311"
   }
 }
