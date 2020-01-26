@@ -8,6 +8,11 @@
   "esy": {
     "buildsInSource": "_build"
   },
+  "scripts": {
+    "clean": "dune clean",
+    "fmt": "esy dune build @fmt --auto-promote",
+    "prettier": "bash -c 'prettier --write **/*.{json,md,yml}'"
+  },
   "dependencies": {
     "@opam/dune": "2.1.3",
     "@opam/duration": "0.1.3",
