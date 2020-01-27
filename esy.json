@@ -9,7 +9,7 @@
     "buildsInSource": "_build"
   },
   "scripts": {
-    "clean": "dune clean",
+    "clean": "dune clean --for-release-of-packages=rekernel",
     "fmt": "esy dune build @fmt --auto-promote",
     "prettier": "bash -c 'prettier --write **/*.{json,md,yml}'"
   },

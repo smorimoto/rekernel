@@ -1,7 +1,7 @@
 .PHONY: build
 build: clean configure
 	rm -f mirage-unikernel-*.opam
-	esy dune build
+	esy dune build --for-release-of-packages=rekernel
 
 .PHONY: clean
 clean:
