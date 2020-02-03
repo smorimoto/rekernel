@@ -58,12 +58,12 @@ A minimal setup for writing Unikernels in ReasonML.
 ## Note to anyone who happens to find this repository
 
 I have confirmed that you can build on macOS, but I don't think you can probably
-build on another operating system without extra works. This is a repository I
+build on another operating system without extra steps. This is a repository I
 created to explain to my friends who use macOS and I don't plan to provide much
 support. If you are a user of another operating system, you probably need to
-manually rewrite the dune config file. But, Mirage will support Dune, so you
-probably won't need these extra works in the future. And the code was stolen
-from Tim Dysinger's [restack](https://github.com/dysinger/restack) repository.
+manually rewrite the dune config file. But, Mirage will support Dune soon, so
+these extra steps will no longer be necessary. And the code was stolen from Tim
+Dysinger's [restack](https://github.com/dysinger/restack) repository.
 
 ## Build instructions
 
