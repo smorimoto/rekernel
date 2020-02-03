@@ -5,7 +5,7 @@
 
 ## Overview
 
-Minimum setup for writing Unikernels in ReasonML.
+A minimal setup for writing Unikernels in ReasonML.
 
 ## What is Unikernel
 
