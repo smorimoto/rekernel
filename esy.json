@@ -14,27 +14,27 @@
     "prettier": "bash -c 'prettier --write **/*.{json,md,yml}'"
   },
   "dependencies": {
-    "@opam/dune": "2.2.0",
+    "@opam/dune": "2.4.0",
     "@opam/duration": "0.1.3",
     "@opam/functoria-runtime": "3.0.3",
-    "@opam/lwt": "5.1.1",
-    "@opam/mirage": "3.7.4",
+    "@opam/lwt": "5.2.0",
+    "@opam/mirage": "3.7.5",
     "@opam/mirage-bootvar-unix": "0.1.0",
     "@opam/mirage-clock-unix": "3.0.1",
     "@opam/mirage-logs": "1.2.0",
-    "@opam/mirage-runtime": "3.7.1",
-    "@opam/mirage-types": "3.7.1",
-    "@opam/mirage-types-lwt": "3.7.1",
+    "@opam/mirage-runtime": "3.7.5",
+    "@opam/mirage-types": "3.7.5",
+    "@opam/mirage-types-lwt": "3.7.5",
     "@opam/mirage-unix": "4.0.0",
-    "@opam/reason": "3.5.2",
+    "@opam/reason": "3.6.0",
     "ocaml": "4.9.0"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",
-    "@opam/ocamlformat": "0.12",
+    "@opam/ocamlformat": "0.13.0",
     "prettier": "1.19.1"
   },
   "resolutions": {
-    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#5e864ab"
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#62f5c11"
   }
 }
