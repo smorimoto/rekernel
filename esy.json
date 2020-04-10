@@ -18,23 +18,20 @@
     "@opam/duration": "0.1.3",
     "@opam/functoria-runtime": "3.0.3",
     "@opam/lwt": "5.2.0",
-    "@opam/mirage": "3.7.5",
+    "@opam/mirage": "3.7.6",
     "@opam/mirage-bootvar-unix": "0.1.0",
     "@opam/mirage-clock-unix": "3.0.1",
     "@opam/mirage-logs": "1.2.0",
-    "@opam/mirage-runtime": "3.7.5",
-    "@opam/mirage-types": "3.7.5",
-    "@opam/mirage-types-lwt": "3.7.5",
+    "@opam/mirage-runtime": "3.7.6",
+    "@opam/mirage-types": "3.7.6",
+    "@opam/mirage-types-lwt": "3.7.6",
     "@opam/mirage-unix": "4.0.0",
     "@opam/reason": "3.6.0",
     "ocaml": "4.9.0"
   },
   "devDependencies": {
-    "@opam/ocaml-lsp-server": "*",
-    "@opam/ocamlformat": "0.13.0",
-    "prettier": "1.19.1"
-  },
-  "resolutions": {
-    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#62f5c11"
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam",
+    "@opam/ocamlformat": "0.14.0",
+    "prettier": "2.0.4"
   }
 }
